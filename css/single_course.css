@@ -1,0 +1,353 @@
+
+.strip_single_course {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/line_bg_course.png");
+    background-origin: padding-box;
+    background-position: 29px top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border-bottom-color: #e0e5e9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #e0e5e9;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #e0e5e9;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-top: 10px;
+}
+.strip_single_course ul {
+    margin-left: 10px;
+}
+.strip_single_course ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.strip_single_course ul li i {
+    color: #ccc;
+    font-size: 16px;
+}
+#end {
+    color: #ccc;
+    float: right;
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: -10px;
+    margin-top: 17px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.strip_single_course h4 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+h4.completed {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_complete.png");
+    background-origin: padding-box;
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+h4.completed a {
+    color: #2d4050;
+}
+h4.completed a:hover {
+    color: #000;
+}
+h4.inprogress {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_progress.png");
+    background-origin: padding-box;
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+h4.inprogress a {
+    color: #2d4050;
+}
+h4.inprogress a:hover {
+    color: #000;
+}
+h4.start {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_start.png");
+    background-origin: padding-box;
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+.chapter_course {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #f8f8f8;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #e0e5e9;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: #e0e5e9;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #e0e5e9;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #e0e5e9;
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.chapter_course.no_margin_rop {
+    margin-top: 0;
+}
+ul.legend_course {
+    font-size: 14px;
+    line-height: 30px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.legend_course li#tostart {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_start_2.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #5394c9;
+    padding-left: 25px;
+}
+ul.legend_course li#inprogress {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_progress_2.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #949494;
+    padding-left: 25px;
+}
+ul.legend_course li#completed {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_complete_2.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #949494;
+    padding-left: 25px;
+}
+@keyframes progress-bar-stripes {
+0% {
+    background-position: 40px 0;
+}
+100% {
+    background-position: 0 0;
+}
+}
+@keyframes progress-bar-stripes {
+0% {
+    background-position: 40px 0;
+}
+100% {
+    background-position: 0 0;
+}
+}
+.progress {
+    background-color: #f5f5f5;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 20px;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.progress-bar {
+    background-color: #428bca;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    text-align: center;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: width;
+    transition-timing-function: ease;
+    width: 0;
+}
+.progress.active .progress-bar {
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-name: progress-bar-stripes;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+.progress-bar-info {
+    background-color: #7cbe31;
+}
+.progress-striped .progress-bar-info {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+ul#legend li {
+    margin-bottom: 5px;
+}
+ul#legend li.legend_completed {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_complete_2.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    padding-left: 25px;
+}
+ul#legend li.legend_inprogress {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_progress_2.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    padding-left: 25px;
+}
+ul#legend li.legend_start {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/bullet_start_2.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    padding-left: 25px;
+}
+.main-img-2 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/single_course.jpg");
+    background-origin: padding-box;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 15px;
+    position: relative;
+}
+.main-img-2 p.lead {
+    background-color: #000;
+    bottom: -25px;
+    color: #fff;
+    display: block;
+    line-height: 24px;
+    opacity: 0.7;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+}
+.title-course-2 strong {
+    display: block;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.title-course-2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    left: 25px;
+    line-height: 30px;
+    position: absolute;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    top: 25%;
+}
+@media (max-width: 480px) {
+.chapter_course {
+    font-size: 16px;
+}
+h4.completed, h4.inprogres, h4.start {
+    font-size: 14px;
+    line-height: 16px;
+}
+.title-course-2 {
+    font-size: 18px;
+    line-height: 20px;
+    top: 15%;
+}
+.title-course-2 strong {
+    font-size: 22px;
+    line-height: 24px;
+}
+.main-img-2 {
+    height: 140px;
+}
+}

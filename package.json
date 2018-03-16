@@ -1,0 +1,11 @@
+{
+  "name": "iti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "reload -b"
+  },
+  "author": "Pavitra Behre",
+  "license": "MIT"
+}
